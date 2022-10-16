@@ -1,3 +1,7 @@
+<!DOCTYPE html>
+<html>
+<body>
+
 <style>
   table, th, td {
     border: 1px solid;
@@ -54,3 +58,6 @@
       <td>60%</td>
 
     </tr>
+
+</body>
+</html>
