@@ -1,6 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+
 <title>Worok</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,7 +7,6 @@ body {
   margin: 0;
 }
 
-/* Style the header */
 .header {
   background-color: #2596be;
   padding: 20px;
@@ -22,7 +19,3 @@ body {
 <div class="header">
   <h1>Anubhav Bhartiya</h1>
 </div>
-
-</body>
-</html>
-
