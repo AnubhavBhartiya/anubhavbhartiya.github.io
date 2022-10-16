@@ -1,0 +1,56 @@
+<style>
+  table, th, td {
+    border: 1px solid;
+  }
+  
+  table {
+    width: 100%;
+  }
+  </style>
+  </head>
+  <body>
+  
+  <h2>Anubhav's Academics</h2>
+  
+  <table>
+    <tr>
+      <th>Examination</th>
+      <th>Year of
+        Passing</th>
+      <th>Institution</th>
+      <th>Board/University</th>
+      <th>Specialisation</th>
+      <th>Grades</th>
+    </tr>
+    <tr>
+      <td>B.Sc. H.</td>
+      <td>2022</td>
+      <td>AIGIRS</td>
+      <td>Amity University, Uttar
+        Pradesh</td>
+      <td>Geography</td>
+      <td>9.44</td>
+
+    </tr>
+
+    <tr>
+      <td>Grade 12th</td>
+      <td>2019</td>
+      <td>Delhi Public School, Indore</td>
+      <td>CBSE</td>
+      <td>Humanities</td>
+      <td>83%</td>
+
+    </tr>
+
+    <tr>
+      <td>Grade 10th</td>
+      <td>2017</td>
+      <td>Choithram International,
+        Indore</td>
+      <td>IGCSE and IB-MYP</td>
+      <td>PP and
+        IGCSE</td>
+      <td>60%</td>
+
+    </tr>
