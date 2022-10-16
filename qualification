@@ -1,18 +1,16 @@
 <!DOCTYPE html>
 <html>
+ 
+      <style>
+            table, th, td {
+              border: 1px solid;
+            }
+            
+            table {
+              width: 100%;
+            }
+            </style>
 <body>
-
-<style>
-  table, th, td {
-    border: 1px solid;
-  }
-  
-  table {
-    width: 100%;
-  }
-  </style>
-  </head>
-  <body>
   
   <h2>Anubhav's Academics</h2>
   
@@ -58,6 +56,5 @@
       <td>60%</td>
 
     </tr>
-
 </body>
 </html>
