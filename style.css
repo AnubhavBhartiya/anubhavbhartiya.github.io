@@ -1,0 +1,141 @@
+/* This is the only CSS sheet created by me where I have put in all the Style/CSS features */
+/* I started with setting up the Background colour for the whole file */
+*{
+  background-color: #EEEEEE;
+
+}
+
+body {
+  margin:0;
+
+}
+
+/* NAVBAR CSS */
+ nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#EEEEEE;
+  }
+  
+  li {
+    float: left;
+    border-right:1px solid rgb(9, 8, 7);
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(9, 8, 7);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: rgb(54, 92, 163);
+  }
+  
+  .active {
+    background-color: #053322;
+  }
+
+
+/* Marquee_scroll */
+.scroll {
+width: "100%";
+direction: "Left";
+height: "20px";
+margin: 20;
+top: 30;
+}
+
+/* Paragraph Format */
+.para1 {
+   border: 1px solid black;
+   padding: 20px;
+   width: "100%";
+   height: 470px;
+   text-align: justify;
+}
+
+/* Here is the Format for the Tables where did try to set out the border lines of the table */
+   
+table, th, td {
+     border: 1px solid;
+}
+   
+table {
+     width: 100%;
+}
+   
+
+/* a:link, b:visited {
+  background-color: rgb(53, 51, 51);
+  color: white;
+  border: 2px solid blue;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, b:active {
+  background-color: grey;
+  color: black;
+} */
+
+/* This is all to set the photos in a proper layout so that all the photos are in a box and 
+have proper text below them and are not misaligned */
+
+
+.desc{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+}
+
+.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+.gallery:hover {
+  border: 1px solid #777;
+}
+
+.gallery img {
+  max-width: 100%;
+  height: auto;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+/* These are the buttons for the Connect page URL buttons */
+#button {
+  height: auto; 
+  width: auto; 
+  max-width: 30px; 
+  max-height: 30px;
+}
+
+/* This CSS statement for Buttons is made specifically for the Qualification Page Clickable button which is linked to my research paper */
+
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
